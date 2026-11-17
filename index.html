@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kirby Food Drop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Kirby Food Drop</h1>
+  <p>Inale as comidas, fuja das bombas e aguente o vento. Projeto de fã feito para um curso, sem fins comerciais.</p>
+</header>
+
+<main>
+  <div class="frame"><canvas id="game" width="480" height="640" aria-label="Jogo Kirby Food Drop"></canvas></div>
+
+  <section id="como-jogar">
+    <h2>Como jogar</h2>
+    <div class="cols">
+      <div>
+        <h3>Controles</h3>
+        <ul>
+          <li><b>← → ou A / D</b>: mover o Kirby</li>
+          <li><b>Espaço (segurar)</b>: inalar e puxar itens próximos, gasta energia</li>
+          <li><b>↓ ou S</b>: cuspir a bomba que está na boca</li>
+          <li><b>Enter</b>: começar ou jogar de novo</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Itens</h3>
+        <ul>
+          <li>🍎🍰🍉🍓🍩🍔 valem 10 pontos</li>
+          <li>💣 tira uma vida. Inalada, fica na boca: cuspa em 3 s para destruir outra bomba</li>
+          <li>🧲 ímã: puxa comidas sozinho por 6 s</li>
+          <li>🛡️ escudo: aguenta uma bomba</li>
+        </ul>
+      </div>
+      <div>
+        <h3>O caos</h3>
+        <ul>
+          <li>Quanto mais pontos, mais rápido tudo cai</li>
+          <li>O vento muda de direção e empurra os itens</li>
+          <li>Se a energia zerar, o Kirby precisa recuperar 30% para inalar de novo</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="creditos">
+    <h2>Créditos</h2>
+    <div class="cols">
+      <div><h3>[Nome 1]</h3><p>Game Designer e Artista Digital: regras, balanceamento e visual</p></div>
+      <div><h3>[Nome 2]</h3><p>Programação de Lógica e Física: loop, movimento e colisões</p></div>
+      <div><h3>[Nome 3]</h3><p>Programação de Estado e Interface: teclado, pontuação e telas</p></div>
+    </div>
+    <p class="note">Inspirado em Food Drop (Pou) e no personagem Kirby, da Nintendo. Todo o desenho foi feito em código, sem sprites oficiais.</p>
+  </section>
+</main>
+<script src="game.js"></script>
+</body>
+</html>
