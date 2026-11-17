@@ -1,7 +1,11 @@
 boa
-fazer a boca do kirby abrir
-power up vier com menos frequencia
 se deixar comida cair perde ponto e se deixar 5 comidas seguidas cair perde uma vida(pontuação não pode ficar negativa)
+
 crir modos de jogo:
  -modo hard: cosiste em colocar apenas bomba e o objetivo é desviar de todas as bombas pegando uma unica comida
- 
+ -modo pou: cai so comida e bomba
+
+escudo com menos frequencia
+tirar imã
+colocar inimigos q atiram projeteis q segue o kirby
+kirby abrir a boca rapidamente quando encostar na comida
